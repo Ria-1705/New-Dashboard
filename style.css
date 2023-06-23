@@ -1,0 +1,279 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+.red {
+    color:red;
+}
+
+.name {
+    display:flex;
+    padding-top: 10px;
+}
+
+.nav {
+    display:flex;
+    width:100vw;
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom:10px;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+    padding:20px;
+}
+
+.main {
+    overflow:auto;
+}
+
+ul {
+    list-style: none;
+    padding-left:230px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+}
+
+.bdy {
+    display:flex;
+    
+}
+
+.first {
+    width:50vw;
+}
+
+.second {
+    width:50vw;
+    background-image: url(./lars-van-poucke-Y1l93xdU1is-unsplash.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+
+.space {
+    border-top: 1px solid rgb(164, 163, 163);
+    margin-left:50px;
+}
+
+.top {
+font-size: 10vmin;
+padding-top: 60px;
+}
+
+.bot {
+    font-size: 10vmin;
+}
+
+.ui {
+    padding:10px;
+    width:100px;
+    border-radius: 30px;
+    background-color: #5562ff;
+    color:white;
+    border-width: 0ch;
+    font-weight: bold;
+    font-size:15px;
+}
+
+h6 {
+    font-weight: normal;
+    font-size: 3vmin;
+    padding-top:20px;
+    padding-bottom: 30px;
+}
+
+.hire {
+    background-color: orangered;
+    border-width: 0;
+    padding:30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color:aliceblue;
+    font-weight: 700;
+}
+
+.projects {
+    border-width: 0;
+    background-color: #ffffff;
+    padding:30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 700;
+    padding-bottom:40px;
+}
+
+.links {
+    display: flex;
+}
+
+.btn {
+    padding:10px;
+    padding-left:200px;
+
+}
+
+.btn button {
+    padding:10px 20px 10px 20px;
+    border:2px solid black;
+    background-color: #ffffff;
+    
+}
+
+.same {
+    display: flex;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+.card3 {
+    padding-left:120px;
+
+}
+
+.black {
+    background-color: #262626;
+    padding:30px 0 30px;
+    color:#ffffff;
+    display:flex;
+    
+}
+
+.stat h2 {
+    font-size: 3vmin;
+}
+
+.stat button {
+    margin-top:20px;
+    padding:10px 20px 10px;
+    background-color: yellow;
+    border-width: 0em;
+    font-weight: bold;
+}
+
+.num {
+    margin-left:20vmin;
+}
+table {
+    border-collapse: collapse;
+    width:100%;
+}
+td {
+    border-bottom: 1px solid #3d3b3b;
+    padding:5px 20px 5px 5px;
+  }
+
+  .second p {
+    font-size: 4.5vmin;
+    padding:70px;
+  }
+
+  .second button {
+    padding:15px 3px 15px 15px;
+  }
+
+  .arrow {
+    margin-left:40px;
+    background-color: black;
+    color:#ffffff;
+    padding:13px;
+  }
+
+  .end {
+    /* position: absolute;
+    bottom:5px;
+    right:15vw; */
+    margin-top:400px;
+    padding-left:15vmax;
+  }
+
+.stat {
+    margin-left: 50px;
+}
+
+@media only screen and (max-width:1135px) {
+  ul {
+        padding-left:50px;
+    }
+
+    .btn {
+        padding:10px;
+        padding-left:50px;
+    
+    }
+   
+    /* .second {
+        display:none;
+    } */
+    
+    .first {
+        width:100vw;
+        /* background-image:linear-gradient(#daedeb,#f3eae5);
+        background-size: cover;
+        background-position: center; */
+    }
+
+    .black {
+        justify-content: space-between;
+    }
+
+    .projects {
+       
+        padding-bottom:15px;
+    }
+
+    .end {
+        margin-top:100px;
+        padding-left:5vmax;
+      }
+
+      .second {
+        width:25vw;
+      }
+    
+.end {
+    display: none;
+}
+  
+
+
+}
+
+@media only screen and (max-width:900px) {
+    ul {
+          padding-left:20px;
+      }
+  
+      .btn {
+          padding:10px;
+          padding-left:20px;
+      
+      }
+  
+  
+    .link {
+        display:block;
+    }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .second {
+    display: none;
+  }
+
+  .first {
+    background-image:linear-gradient(#daedeb,#f3eae5);
+        background-size: cover;
+        background-position: center;
+  }
+  }
